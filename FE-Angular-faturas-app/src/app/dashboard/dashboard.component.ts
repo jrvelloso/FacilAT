@@ -48,7 +48,7 @@ export class DashboardComponent implements OnInit {
     // Load tax declarations by userId
     this.declaracoesService.getDeclaracoesByUserId(this.userId!).subscribe(data => {
       this.declaracoes = data.sort((a, b) => {
-        return new Date(b.DataRececao).getTime() - new Date(a.DataRececao).getTime();
+        return new Date(b.dataRececao).getTime() - new Date(a.dataRececao).getTime();
       });
 
       console.log('this.declaracoes');
@@ -65,7 +65,7 @@ export class DashboardComponent implements OnInit {
     // Load invoices (recibos verdes) by userId
     this.recibosVerdesService.getRecibosVerdesByUserId(this.userId!).subscribe(data => {
       this.recibos = data.sort((a, b) => {
-        return new Date(b.DataEmissao).getTime() - new Date(a.DataEmissao).getTime();
+        return new Date(b.dataEmissao).getTime() - new Date(a.dataEmissao).getTime();
       });
 
       this.calculateMetrics();
@@ -75,12 +75,12 @@ export class DashboardComponent implements OnInit {
 
   calculateMetrics(): void {
     if (this.recibos.length > 0) {
-      this.totalRevenue = this.recibos.reduce((sum, recibo) => sum + (recibo.ImportanciaRecebida || 0), 0);
+      this.totalRevenue = this.recibos.reduce((sum, recibo) => sum + (recibo.importanciaRecebida || 0), 0);
       this.averageInvoiceAmount = this.totalRevenue / this.recibos.length;
     }
 
     if (this.declaracoes.length > 0) {
-      this.totalTaxPaid = this.declaracoes.reduce((sum, declaracao) => sum + ((declaracao.ImpostoLiquidadoCentimos || 0) / 100), 0);
+      this.totalTaxPaid = this.declaracoes.reduce((sum, declaracao) => sum + ((declaracao.impostoLiquidadoCentimos || 0) / 100), 0);
     }
   }
 
@@ -96,8 +96,8 @@ export class DashboardComponent implements OnInit {
   }
 
   getDeclaracaoValue(declaracao: IListagemDeclaracaoEntregues): number {
-    const value = ((declaracao.Valor1 || 0) + (declaracao.Valor2 || 0)) / 100;
-    return declaracao.IndicadorPagamentoReembolso === 'P' ? -value : value;
+    const value = ((declaracao.valor1 || 0) + (declaracao.valor2 || 0)) / 100;
+    return declaracao.indicadorPagamentoReembolso === 'P' ? -value : value;
   }
 
   createMonthlyRevenueChart(): void {
@@ -109,13 +109,13 @@ export class DashboardComponent implements OnInit {
 
     const monthlyData: { [key: string]: number } = {};
     this.recibos.forEach(recibo => {
-      const date = new Date(recibo.DataEmissao);
+      const date = new Date(recibo.dataEmissao);
       const monthYear = date.toLocaleString('default', { month: 'short', year: 'numeric' });
 
       if (!monthlyData[monthYear]) {
         monthlyData[monthYear] = 0;
       }
-      monthlyData[monthYear] += recibo.ImportanciaRecebida || 0;
+      monthlyData[monthYear] += recibo.importanciaRecebida || 0;
     });
 
     const labels = Object.keys(monthlyData).sort();
@@ -145,7 +145,7 @@ export class DashboardComponent implements OnInit {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const labels = this.declaracoes.map(d => this.getQuarter(d.Periodo));
+    const labels = this.declaracoes.map(d => this.getQuarter(d.periodo));
     const values = this.declaracoes.map(d => this.getDeclaracaoValue(d));
 
     this.quarterlyBalanceChart = new Chart(ctx, {
@@ -162,9 +162,9 @@ export class DashboardComponent implements OnInit {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const labels = this.declaracoes.map(d => this.getQuarter(d.Periodo));
-    const liquidTax = this.declaracoes.map(d => (d.ImpostoLiquidadoCentimos || 0) / 100);
-    const deductibleTax = this.declaracoes.map(d => (d.ImpostoDedutivelCentimos || 0) / 100);
+    const labels = this.declaracoes.map(d => this.getQuarter(d.periodo));
+    const liquidTax = this.declaracoes.map(d => (d.impostoLiquidadoCentimos || 0) / 100);
+    const deductibleTax = this.declaracoes.map(d => (d.impostoDedutivelCentimos || 0) / 100);
 
     this.taxComparisonChart = new Chart(ctx, {
       type: 'bar',

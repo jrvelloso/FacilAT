@@ -21,17 +21,17 @@
           </thead>
           <tbody>
             <tr *ngFor="let recibo of recibos">
-              <td class="text-end">{{ recibo.DataEmissao | date:'dd/MM/yyyy' }}</td>
+              <td class="text-end">{{ recibo.dataEmissao | date:'dd/MM/yyyy' }}</td>
               <td class="text-end">
                 <span class="text-success">
-                  {{ recibo.ImportanciaRecebida | number:'1.0-2' }} €
+                  {{ recibo.importanciaRecebida | number:'1.0-2' }} €
                 </span>
               </td>
-              <td class="text-end">{{ recibo.ValorTotalCImpostos | number:'1.0-2' }} €</td>
-              <td class="text-end">{{ recibo.TipoDocumento }}</td>
-              <td class="text-end">{{ recibo.ValorBase | number:'1.0-2' }} €</td>
-              <td class="text-end">{{ recibo.ValorIVA | number:'1.0-2' }} €</td>
-              <td class="text-end">{{ recibo.ValorIRS | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.valorTotalCImpostos | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.tipoDocumento }}</td>
+              <td class="text-end">{{ recibo.valorBase | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.valorIVA | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.valorIRS | number:'1.0-2' }} €</td>
             </tr>
           </tbody>
         </table>
