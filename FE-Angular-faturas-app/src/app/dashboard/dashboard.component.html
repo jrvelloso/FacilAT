@@ -1,0 +1,133 @@
+<div class="dashboard-container">
+  <!-- Header Section -->
+  <div class="d-flex flex-wrap flex-stack pt-5 pb-10">
+    <h3 class="fw-bold me-5 my-1">
+      <span class="card-label fw-bold fs-2 mb-1 text-gray-800">Dashboard Fiscal</span>
+      <br>
+      <span class="text-gray-500 mt-1 fw-semibold fs-6">Visão geral das suas declarações e recibos</span>
+    </h3>
+    <div class="d-flex align-items-center fw-bold">
+      <div class="text-gray-500 fs-7 me-2">Data de atualização</div>
+      <div class="text-gray-700 fs-6">{{ latestDeclaration?.dataRececao | date:'dd/MM/yyyy HH:mm' }}</div>
+    </div>
+  </div>
+
+  <!-- Key Metrics Cards Row -->
+  <div class="row g-5 g-xl-8 mb-8">
+    <!-- Total Revenue Card -->
+    <div class="col-xl-3">
+      <div class="card card-xl-stretch bg-light-primary mb-5 mb-xl-8">
+        <div class="card-body my-3">
+          <a class="card-title fw-bold text-primary fs-5 mb-3 d-block">Receita Total</a>
+          <div class="py-1">
+            <span class="text-dark fs-1 fw-bold me-2">{{ totalRevenue | currency:'EUR':'symbol':'1.2-2' }}</span>
+          </div>
+          <div class="fw-semibold fs-6 text-primary">Total recebido em faturação</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Total Tax Paid Card -->
+    <div class="col-xl-3">
+      <div class="card card-xl-stretch bg-light-info mb-5 mb-xl-8">
+        <div class="card-body my-3">
+          <a class="card-title fw-bold text-info fs-5 mb-3 d-block">Imposto Liquidado</a>
+          <div class="py-1">
+            <span class="text-dark fs-1 fw-bold me-2">{{ totalTaxPaid | currency:'EUR':'symbol':'1.2-2' }}</span>
+          </div>
+          <div class="fw-semibold fs-6 text-info">Total de imposto no período</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Average Invoice Card -->
+    <div class="col-xl-3">
+      <div class="card card-xl-stretch bg-light-warning mb-5 mb-xl-8">
+        <div class="card-body my-3">
+          <a class="card-title fw-bold text-warning fs-5 mb-3 d-block">Média por Fatura</a>
+          <div class="py-1">
+            <span class="text-dark fs-1 fw-bold me-2">{{ averageInvoiceAmount | currency:'EUR':'symbol':'1.2-2'
+              }}</span>
+          </div>
+          <div class="fw-semibold fs-6 text-warning">Valor médio por recibo</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Balance Card -->
+    <div class="col-xl-3" *ngIf="latestDeclaration">
+      <div class="card card-xl-stretch"
+        [ngClass]="{'bg-light-success': getDeclaracaoValue(latestDeclaration) > 0, 'bg-light-danger': getDeclaracaoValue(latestDeclaration) < 0, 'mb-5 mb-xl-8': true}">
+        <div class="card-body my-3">
+          <a class="card-title fw-bold fs-5 mb-3 d-block"
+            [ngClass]="{'text-success': getDeclaracaoValue(latestDeclaration) > 0, 'text-danger': getDeclaracaoValue(latestDeclaration) < 0}">Último
+            Saldo</a>
+          <div class="py-1">
+            <span class="text-dark fs-1 fw-bold me-2">{{ getDeclaracaoValue(latestDeclaration) |
+              currency:'EUR':'symbol':'1.2-2' }}</span>
+          </div>
+          <div class="fw-semibold fs-6"
+            [ngClass]="{'text-success': getDeclaracaoValue(latestDeclaration) > 0, 'text-danger': getDeclaracaoValue(latestDeclaration) < 0}">
+            {{ getQuarter(latestDeclaration.periodo) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="row g-5 g-xl-8 mb-8">
+    <!-- Monthly Revenue Chart -->
+    <div class="col-xl-6">
+      <div class="card card-flush h-xl-100">
+        <div class="card-header pt-5">
+          <h3 class="card-title align-items-start flex-column">
+            <span class="card-label fw-bold text-gray-800">Receita Mensal</span>
+            <span class="text-gray-500 mt-1 fw-semibold fs-6">Valores recebidos por mês</span>
+          </h3>
+        </div>
+        <div class="card-body pt-6">
+          <div class="h-300px">
+            <canvas id="monthlyRevenueChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quarterly Balance Chart -->
+    <div class="col-xl-6">
+      <div class="card card-flush h-xl-100">
+        <div class="card-header pt-5">
+          <h3 class="card-title align-items-start flex-column">
+            <span class="card-label fw-bold text-gray-800">Saldo Trimestral</span>
+            <span class="text-gray-500 mt-1 fw-semibold fs-6">Evolução do saldo por trimestre</span>
+          </h3>
+        </div>
+        <div class="card-body pt-6">
+          <div class="h-300px">
+            <canvas id="quarterlyBalanceChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tax Comparison Chart -->
+  <div class="row g-5 g-xl-8 mb-8">
+    <div class="col-xl-12">
+      <div class="card card-flush h-xl-100">
+        <div class="card-header pt-5">
+          <h3 class="card-title align-items-start flex-column">
+            <span class="card-label fw-bold text-gray-800">Comparação de Impostos</span>
+            <span class="text-gray-500 mt-1 fw-semibold fs-6">Imposto liquidado vs. dedutível por trimestre</span>
+          </h3>
+        </div>
+        <div class="card-body pt-6">
+          <div class="h-350px">
+            <canvas id="taxComparisonChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
