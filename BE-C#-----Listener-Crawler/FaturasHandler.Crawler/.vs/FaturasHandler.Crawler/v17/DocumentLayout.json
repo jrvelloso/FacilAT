@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.crawler\\iva-periodico\\ivaquarter\\listagemdeclaracoesentregues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:iva-periodico\\ivaquarter\\listagemdeclaracoesentregues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\recibosverdes\\listagemrecibosverdes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:recibosverdes\\listagemrecibosverdes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}|..\\FaturasHandler.Listener\\FaturasHandler.Listener.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.listener\\services\\useractionlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\startup\\at.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:startup\\at.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}|..\\FaturasHandler.API\\FaturasHandler.Services.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.api\\services\\useractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\infrastructure\\handlepages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:infrastructure\\handlepages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\recibosverdes\\recibosverdesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:recibosverdes\\recibosverdesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\application\\ivaperiodicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:application\\ivaperiodicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\repository\\useractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\models\\useraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\infrastructure\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107716C1-5FF0-477A-9886-40C6727DF22F}|FaturasHandler.Crawler.csproj|solutionrelative:infrastructure\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}|..\\FaturasHandler.IoC\\FaturasHandler.IoC.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.ioc\\mapper\\taxdeclarationsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\models\\ivadeclaration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\models\\reciboverde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}|..\\FaturasHandler.IoC\\FaturasHandler.IoC.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.ioc\\mapper\\recibosverdesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}|..\\FaturasHandler.Listener\\FaturasHandler.Listener.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.listener\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}|..\\FaturasHandler.IoC\\FaturasHandler.IoC.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.ioc\\dto\\faturaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}|..\\FaturasHandler.API\\FaturasHandler.Services.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.api\\services\\reciboverdeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}|..\\FaturasHandler.API\\FaturasHandler.Services.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.api\\services\\ivadeclarationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}|..\\FaturasHandler.IoC\\FaturasHandler.IoC.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.ioc\\dto\\recibosverdesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\migrations\\20250227230106_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47890899-4B66-4C98-9149-B1AA7E126390}|..\\FaturasHandler.Data\\FaturasHandler.Data.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}|..\\FaturasHandler.Listener\\FaturasHandler.Listener.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.listener\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}|..\\FaturasHandler.API\\FaturasHandler.Services.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.api\\interfaces\\iuseractionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}|..\\FaturasHandler.IoC\\FaturasHandler.IoC.csproj|c:\\src\\__faturashandler\\crawler\\faturashandler.ioc\\dependencyinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 189,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1123,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserActionListener.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\Services\\UserActionListener.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Listener\\Services\\UserActionListener.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\Services\\UserActionListener.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Listener\\Services\\UserActionListener.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAQwHQAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:00:56.872Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserActionRepository.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Repository\\UserActionRepository.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Repository\\UserActionRepository.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Repository\\UserActionRepository.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Repository\\UserActionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:38:54.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecibosVerdesService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\RecibosVerdes\\RecibosVerdesService.cs",
+              "RelativeDocumentMoniker": "RecibosVerdes\\RecibosVerdesService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\RecibosVerdes\\RecibosVerdesService.cs",
+              "RelativeToolTip": "RecibosVerdes\\RecibosVerdesService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:31:10.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListagemRecibosVerdes.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\RecibosVerdes\\ListagemRecibosVerdes.cs",
+              "RelativeDocumentMoniker": "RecibosVerdes\\ListagemRecibosVerdes.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\RecibosVerdes\\ListagemRecibosVerdes.cs",
+              "RelativeToolTip": "RecibosVerdes\\ListagemRecibosVerdes.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T06:17:49.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HandlePages.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Infrastructure\\HandlePages.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\HandlePages.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Infrastructure\\HandlePages.cs",
+              "RelativeToolTip": "Infrastructure\\HandlePages.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:49:12.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\UserData.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Models\\UserData.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\UserData.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Models\\UserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:42:36.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserAction.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\UserAction.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Models\\UserAction.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\UserAction.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Models\\UserAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:42:29.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReciboVerde.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\ReciboVerde.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Models\\ReciboVerde.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\ReciboVerde.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Models\\ReciboVerde.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:42:20.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IVADeclarationService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\IVADeclarationService.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.API\\Services\\IVADeclarationService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\IVADeclarationService.cs",
+              "RelativeToolTip": "..\\FaturasHandler.API\\Services\\IVADeclarationService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:59:04.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListagemDeclaracoesEntregues.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\IVA-Periodico\\IVAQuarter\\ListagemDeclaracoesEntregues.cs",
+              "RelativeDocumentMoniker": "IVA-Periodico\\IVAQuarter\\ListagemDeclaracoesEntregues.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\IVA-Periodico\\IVAQuarter\\ListagemDeclaracoesEntregues.cs",
+              "RelativeToolTip": "IVA-Periodico\\IVAQuarter\\ListagemDeclaracoesEntregues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:57:32.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVAPeriodicoService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Application\\IVAPeriodicoService.cs",
+              "RelativeDocumentMoniker": "Application\\IVAPeriodicoService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Application\\IVAPeriodicoService.cs",
+              "RelativeToolTip": "Application\\IVAPeriodicoService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:53:14.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IVADeclaration.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\IVADeclaration.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Models\\IVADeclaration.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Models\\IVADeclaration.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Models\\IVADeclaration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:51:21.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaxDeclarationsMapper.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Mapper\\TaxDeclarationsMapper.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.IoC\\Mapper\\TaxDeclarationsMapper.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Mapper\\TaxDeclarationsMapper.cs",
+              "RelativeToolTip": "..\\FaturasHandler.IoC\\Mapper\\TaxDeclarationsMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:48:47.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FaturaResponseDto.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Dto\\FaturaResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.IoC\\Dto\\FaturaResponseDto.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Dto\\FaturaResponseDto.cs",
+              "RelativeToolTip": "..\\FaturasHandler.IoC\\Dto\\FaturaResponseDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA8wBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:48:21.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RecibosVerdesDto.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Dto\\RecibosVerdesDto.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.IoC\\Dto\\RecibosVerdesDto.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Dto\\RecibosVerdesDto.cs",
+              "RelativeToolTip": "..\\FaturasHandler.IoC\\Dto\\RecibosVerdesDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:48:07.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250227230106_initial2.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Migrations\\20250227230106_initial2.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Migrations\\20250227230106_initial2.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Migrations\\20250227230106_initial2.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Migrations\\20250227230106_initial2.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAowHcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:01:44.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Data\\Repository\\Repository.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Data\\Repository\\Repository.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Data\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T15:37:51.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Listener\\appsettings.json",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\appsettings.json",
+              "RelativeToolTip": "..\\FaturasHandler.Listener\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T15:42:13.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RecibosVerdesMapper.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Mapper\\RecibosVerdesMapper.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.IoC\\Mapper\\RecibosVerdesMapper.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\Mapper\\RecibosVerdesMapper.cs",
+              "RelativeToolTip": "..\\FaturasHandler.IoC\\Mapper\\RecibosVerdesMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:36:43.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AT.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Startup\\AT.cs",
+              "RelativeDocumentMoniker": "Startup\\AT.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Startup\\AT.cs",
+              "RelativeToolTip": "Startup\\AT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:36:19.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Infrastructure\\Constants.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Constants.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Infrastructure\\Constants.cs",
+              "RelativeToolTip": "Infrastructure\\Constants.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswB4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:07:38.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserActionService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Interfaces\\IUserActionService.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.API\\Interfaces\\IUserActionService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Interfaces\\IUserActionService.cs",
+              "RelativeToolTip": "..\\FaturasHandler.API\\Interfaces\\IUserActionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:08:23.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReciboVerdeService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\ReciboVerdeService.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.API\\Services\\ReciboVerdeService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\ReciboVerdeService.cs",
+              "RelativeToolTip": "..\\FaturasHandler.API\\Services\\ReciboVerdeService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBcAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:04:15.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserActionService.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\UserActionService.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.API\\Services\\UserActionService.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.API\\Services\\UserActionService.cs",
+              "RelativeToolTip": "..\\FaturasHandler.API\\Services\\UserActionService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:01:34.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DependencyInjector.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\DependencyInjector.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.IoC\\DependencyInjector.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.IoC\\DependencyInjector.cs",
+              "RelativeToolTip": "..\\FaturasHandler.IoC\\DependencyInjector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:59:13.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Crawler\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:59:09.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\Program.cs",
+              "RelativeDocumentMoniker": "..\\FaturasHandler.Listener\\Program.cs",
+              "ToolTip": "C:\\src\\__FaturasHandler\\crawler\\FaturasHandler.Listener\\Program.cs",
+              "RelativeToolTip": "..\\FaturasHandler.Listener\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T00:12:36.091Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 547,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

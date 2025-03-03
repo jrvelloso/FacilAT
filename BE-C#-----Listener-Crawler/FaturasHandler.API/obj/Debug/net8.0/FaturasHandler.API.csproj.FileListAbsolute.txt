@@ -1,0 +1,4 @@
+C:\src\__FaturasHandler\crawler\FaturasHandler.API\obj\Debug\net8.0\FaturasHandler.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\__FaturasHandler\crawler\FaturasHandler.API\obj\Debug\net8.0\FaturasHandler.API.AssemblyInfoInputs.cache
+C:\src\__FaturasHandler\crawler\FaturasHandler.API\obj\Debug\net8.0\FaturasHandler.API.AssemblyInfo.cs
+C:\src\__FaturasHandler\crawler\FaturasHandler.API\obj\Debug\net8.0\FaturasHandler.API.csproj.CoreCompileInputs.cache

@@ -1,0 +1,43 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f9;
+  padding: 20px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+canvas {
+  display: block;
+  max-height: 300px;
+  width: 100%;
+}
+
+.text-danger {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dc3545;
+  text-align: center;
+}

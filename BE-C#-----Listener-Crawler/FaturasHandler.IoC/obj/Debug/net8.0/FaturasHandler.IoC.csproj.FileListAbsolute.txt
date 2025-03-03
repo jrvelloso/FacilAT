@@ -1,0 +1,17 @@
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.csproj.AssemblyReference.cache
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.AssemblyInfoInputs.cache
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.AssemblyInfo.cs
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.csproj.CoreCompileInputs.cache
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.IoC.deps.json
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.IoC.dll
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.IoC.pdb
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.Data.dll
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.Services.dll
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.Services.pdb
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\bin\Debug\net8.0\FaturasHandler.Data.pdb
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.csproj.CopyComplete
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.dll
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\refint\FaturasHandler.IoC.dll
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\FaturasHandler.IoC.pdb
+C:\src\__FaturasHandler\crawler\FaturasHandler.IoC\obj\Debug\net8.0\ref\FaturasHandler.IoC.dll

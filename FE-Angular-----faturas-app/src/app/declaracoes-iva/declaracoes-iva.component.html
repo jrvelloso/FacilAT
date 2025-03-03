@@ -1,0 +1,60 @@
+<div class="col-xl-12">
+  <div class="card card-flush h-md-100">
+    <div class="card-header pt-7">
+      <h3 class="card-title align-items-start flex-column">
+        <span class="card-label fw-bold text-gray-800">Declarações Entregues</span>
+        <span class="text-gray-500 mt-1 fw-semibold fs-6">Atualizado Agora</span>
+      </h3>
+    </div>
+    <div class="card-body pt-6">
+      <div class="table-responsive">
+        <table class="table table-row-dashed  gs-0 gy-3 my-0">
+          <thead>
+            <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
+              <th class="p-0 pb-3 min-w-70px text-start">Período</th>
+              <th class="p-0 pb-3 min-w-100px text-end align-middle">Processada</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Reporte</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Base Trib.</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Imposto Liq.</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Imposto Ded.</th>
+              <th class="p-0 pb-3 min-w-150px text-end">Data Receção</th>
+              <th class="p-0 pb-3 min-w-15px text-end">Prazo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let declaracao of declaracoes">
+              <span>{{declaracao.Situacao}}</span>
+              <td class="text-end">
+                {{ getQuarter(declaracao.Periodo) }}
+              </td>
+              <td>
+                {{ declaracao.Situacao === 'AINDA NÃO PRECESSADA' ? 'AINDA NÃO' : 'SIM' }}
+              </td>
+              <td class="text-end">
+                <span [ngClass]="{
+                    'text-danger': declaracao.IndicadorPagamentoReembolso === 'P',
+                    'text-success': declaracao.IndicadorPagamentoReembolso === 'R'
+                  }">
+                  {{ declaracao.IndicadorPagamentoReembolso === 'P' ? '-' : '' }}
+                  {{ ((declaracao.Valor1 + declaracao.Valor2) / 100) | number:'1.0-2' }} €
+                </span>
+              </td>
+              <td class="text-end">{{ (declaracao.BaseTributavelCentimos / 100) | number:'1.0-2' }}€</td>
+              <td class="text-end">{{ (declaracao.ImpostoLiquidadoCentimos / 100) | number:'1.0-2' }}€</td>
+              <td class="text-end">{{ (declaracao.ImpostoDedutivelCentimos / 100) | number:'1.0-2' }}€</td>
+              <td class="text-end">{{ declaracao.DataRececao | date:'dd/MM/yyyy HH:mm' }}</td>
+              <td class="text-end">
+                <span [ngClass]="{
+                    'text-danger': declaracao.Tipo !== 'DENTRO DO PRAZO',
+                    'text-success': declaracao.Tipo === 'DENTRO DO PRAZO'
+                  }">
+                  {{ declaracao.Tipo === 'DENTRO DO PRAZO' ? 'DENTRO' : 'FORA' }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

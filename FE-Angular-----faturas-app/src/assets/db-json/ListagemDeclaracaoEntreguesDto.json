@@ -1,0 +1,80 @@
+﻿[
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "PROCESSADA",
+    "indicadorPagamentoReembolso": "R",
+    "baseTributavelCentimos": 1965622,
+    "impostoLiquidadoCentimos": 452093,
+    "impostoDedutivelCentimos": 930588,
+    "valor1": 0,
+    "valor2": 478495,
+    "periodo": "2403T",
+    "dataRececao": "2024-05-19 15:25:25",
+    "numeroDeclaracao": "112460058004"
+  },
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "PROCESSADA",
+    "indicadorPagamentoReembolso": "R",
+    "baseTributavelCentimos": 1598457,
+    "impostoLiquidadoCentimos": 367645,
+    "impostoDedutivelCentimos": 577807,
+    "valor1": 0,
+    "valor2": 210162,
+    "periodo": "2406T",
+    "dataRececao": "2024-07-27 21:47:41",
+    "numeroDeclaracao": "112465518852"
+  },
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "PROCESSADA",
+    "indicadorPagamentoReembolso": "P",
+    "baseTributavelCentimos": 1598667,
+    "impostoLiquidadoCentimos": 358073,
+    "impostoDedutivelCentimos": 289509,
+    "valor1": 68564,
+    "valor2": 0,
+    "periodo": "2409T",
+    "dataRececao": "2024-11-03 17:24:11",
+    "numeroDeclaracao": "112478242699"
+  },
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "AINDA NÃO PROCESSADA",
+    "indicadorPagamentoReembolso": "P",
+    "baseTributavelCentimos": 1600000,
+    "impostoLiquidadoCentimos": 368000,
+    "impostoDedutivelCentimos": 18014,
+    "valor1": 349986,
+    "valor2": 0,
+    "periodo": "2412T",
+    "dataRececao": "2025-02-01 13:48:58",
+    "numeroDeclaracao": "112489963651"
+  },
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "PROCESSADA",
+    "indicadorPagamentoReembolso": "R",
+    "baseTributavelCentimos": 56810,
+    "impostoLiquidadoCentimos": 13066,
+    "impostoDedutivelCentimos": 58074,
+    "valor1": 0,
+    "valor2": 45008,
+    "periodo": "2309T",
+    "dataRececao": "2023-11-14 20:19:59",
+    "numeroDeclaracao": "112434053831"
+  },
+  {
+    "tipo": "DENTRO DO PRAZO",
+    "situacao": "PROCESSADA",
+    "indicadorPagamentoReembolso": "P",
+    "baseTributavelCentimos": 1558774,
+    "impostoLiquidadoCentimos": 358518,
+    "impostoDedutivelCentimos": 221197,
+    "valor1": 137321,
+    "valor2": 0,
+    "periodo": "2312T",
+    "dataRececao": "2024-02-19 19:41:31",
+    "numeroDeclaracao": "112447921519"
+  }
+]

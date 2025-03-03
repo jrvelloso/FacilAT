@@ -1,0 +1,41 @@
+<div class="col-xl-12 mt-10">
+  <div class="card card-flush h-md-100">
+    <div class="card-header pt-7">
+      <h3 class="card-title align-items-start flex-column">
+        <span class="card-label fw-bold text-gray-800">Recibos Verdes Emitidos</span>
+        <span class="text-gray-500 mt-1 fw-semibold fs-6">Atualizado Agora</span>
+      </h3>
+    </div>
+    <div class="card-body pt-6">
+      <div class="table-responsive">
+        <table class="table table-row-dashed align-center gs-0 gy-3 my-0">
+          <thead>
+            <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
+              <th class="p-0 pb-3 min-w-100px text-end">Data Emissão</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Bruto</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Recebido</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Tipo</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Valor Base</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Valor IVA</th>
+              <th class="p-0 pb-3 min-w-100px text-end">Valor IRS</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let recibo of recibos">
+              <td class="text-end">{{ recibo.DataEmissao | date:'dd/MM/yyyy' }}</td>
+              <td class="text-end">
+                <span class="text-success">
+                  {{ recibo.ImportanciaRecebida | number:'1.0-2' }} €
+                </span>
+              </td>
+              <td class="text-end">{{ recibo.ValorTotalCImpostos | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.TipoDocumento }}</td>
+              <td class="text-end">{{ recibo.ValorBase | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.ValorIVA | number:'1.0-2' }} €</td>
+              <td class="text-end">{{ recibo.ValorIRS | number:'1.0-2' }} €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

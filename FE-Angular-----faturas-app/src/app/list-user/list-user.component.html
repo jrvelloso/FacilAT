@@ -1,0 +1,109 @@
+<!-- list-user.component.html -->
+<div class="container">
+  <div class="header">
+    <h1>Users List</h1>
+    <div class="breadcrumb">
+      <span>Home</span> - <span>User Management</span> - <span>Users</span>
+    </div>
+  </div>
+
+  <div class="search-section">
+    <div class="search-box">
+      <input type="text" placeholder="Search user" [(ngModel)]="searchTerm" (input)="searchUser()">
+      <i class="search-icon">🔍</i>
+    </div>
+    <div class="action-buttons">
+      <button class="btn btn-primary" (click)="openModal()">
+        <i class="add-icon">+</i> Add User
+      </button>
+    </div>
+  </div>
+
+  <table class="user-table">
+    <thead>
+      <tr>
+        <th>USER</th>
+        <th>NIF</th>
+        <th>ACTIONS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredUsers">
+        <td class="user-info">
+          <div class="user-avatar">
+            {{ user.Name.charAt(0) }}
+          </div>
+          <div class="user-detail">
+            <div class="user-name">{{ user.Name }}</div>
+            <div class="user-email">{{ user.Email }}</div>
+          </div>
+        </td>
+        <td>{{ user.NIF }}</td>
+        <td>
+          <div class="action-buttons">
+            <!-- View Button: Redirects to home with UserId -->
+            <button class="btn btn-view each-action-button" (click)="viewUser(user)">
+              👁 View
+            </button>
+
+            <!-- Edit Button -->
+            <button class="btn btn-edit each-action-button" (click)="openModal(user)">
+              ✏️ Edit
+            </button>
+
+            <!-- Delete Button -->
+            <button class="btn btn-delete each-action-button" (click)="deleteUser(user.Id)">
+              ❌ Delete
+            </button>
+
+            <!-- Update Button: Logs UserAction -->
+            <button class="btn btn-update each-action-button" (click)="logAction(user.Id, $event)">
+              🔄 Update
+            </button>
+          </div>
+        </td>
+
+      </tr>
+      <tr *ngIf="filteredUsers.length === 0">
+        <td colspan="3" class="no-data">No users found</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="modal" *ngIf="showModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>{{ selectedUser ? 'Edit User' : 'Add User' }}</h2>
+      <button class="close-btn" (click)="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" [(ngModel)]="name" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" [(ngModel)]="email" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="nif">NIF *</label>
+        <input type="text" id="nif" [(ngModel)]="NIF" required maxlength="10" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="password">{{ selectedUser ? 'New Password' : 'Password' }} {{ selectedUser ? '' : '*' }}</label>
+        <input type="password" id="password" [(ngModel)]="password" [required]="!selectedUser" class="form-control">
+        <small *ngIf="selectedUser" class="form-text">Leave blank to keep current password</small>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="closeModal()">Discard</button>
+      <button type="button" class="btn btn-primary" (click)="saveUser()"
+        [disabled]="!name || !email || !NIF || (!selectedUser && !password)">
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
