@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaturasHandler.Crawler", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaturasHandler.Data", "..\FaturasHandler.Data\FaturasHandler.Data.csproj", "{47890899-4B66-4C98-9149-B1AA7E126390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaturasHandler.Services", "..\FaturasHandler.API\FaturasHandler.Services.csproj", "{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaturasHandler.Services", "..\FaturasHandler.API\FaturasHandler.Services.csproj", "{F4AE320D-9CF1-4F5C-B542-DCE880B58A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaturasHandler.IoC", "..\FaturasHandler.IoC\FaturasHandler.IoC.csproj", "{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaturasHandler.IoC", "..\FaturasHandler.IoC\FaturasHandler.IoC.csproj", "{5C20BAB3-5A12-49B1-AFF6-B49DE5B867BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaturasHandler.Listener", "..\FaturasHandler.Listener\FaturasHandler.Listener.csproj", "{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaturasHandler.Listener", "..\FaturasHandler.Listener\FaturasHandler.Listener.csproj", "{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaturasHandler.WebAPI", "..\FaturasHandler.WebAPI\FaturasHandler.WebAPI.csproj", "{A9E959FE-1CAC-4675-B8D8-5927A48F7FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA80BF0-1F15-4D83-9F88-AD870C36C3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E959FE-1CAC-4675-B8D8-5927A48F7FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E959FE-1CAC-4675-B8D8-5927A48F7FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E959FE-1CAC-4675-B8D8-5927A48F7FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E959FE-1CAC-4675-B8D8-5927A48F7FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

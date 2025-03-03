@@ -2,7 +2,7 @@
 
 namespace FaturasHandler.Data.Repository
 {
-    public interface IUserRepository : IRepository<UserData>
+    public interface IUserDataRepository : IRepository<UserData>
     {
     }
 }

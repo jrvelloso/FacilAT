@@ -11,7 +11,7 @@ namespace FaturasHandler.IoC
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
-            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserDataRepository, UserRepository>();
             services.AddScoped<IIVADeclarationRepository, IVADeclarationRepository>();
             services.AddScoped<IReciboVerdeRepository, ReciboVerdeRepository>();
             services.AddScoped<IUserActionRepository, UserActionRepository>();
@@ -20,7 +20,7 @@ namespace FaturasHandler.IoC
             services.AddScoped<IUserActionService, UserActionService>();
             services.AddScoped<IReciboVerdeService, ReciboVerdeService>();
             services.AddScoped<IIVADeclarationService, IVADeclarationService>();
-            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserDataService, UserDataService>();
 
 
             var connectionString = "Data Source=VELLOSO-YOGA\\SQLEXPRESS;Initial Catalog=fatura;Integrated Security=True;TrustServerCertificate=True;MultipleActiveResultSets=True;Connect Timeout=60;";

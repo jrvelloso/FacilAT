@@ -3,7 +3,7 @@ using FaturasHandler.Data.Models;
 
 namespace FaturasHandler.Data.Repository
 {
-    public class UserRepository : Repository<UserData>, IUserRepository
+    public class UserRepository : Repository<UserData>, IUserDataRepository
 
     {
         public UserRepository(FaturaDbContext context) : base(context)
