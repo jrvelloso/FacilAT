@@ -16,10 +16,15 @@ namespace FaturasHandler.WebAPI.Controllers
             Ok(await _userActionService.GetUserActionsByUserAsync(userId, cancellationToken));
 
         [HttpPost]
-        public async Task<IActionResult> CreateUserAction([FromBody] Guid userId, CancellationToken cancellationToken)
+        public async Task<IActionResult> CreateUserAction([FromBody] CreateUserActionRequest user, CancellationToken cancellationToken)
         {
-            var result = await _userActionService.CreateUserActionAsync(userId, cancellationToken);
-            return CreatedAtAction(nameof(GetUserActions), new { userId = userId }, result);
+            var result = await _userActionService.CreateUserActionAsync(user.UserId, cancellationToken);
+            return CreatedAtAction(nameof(GetUserActions), new { userId = user }, result);
         }
     }
+}
+
+public class CreateUserActionRequest
+{
+    public Guid UserId { get; set; }
 }

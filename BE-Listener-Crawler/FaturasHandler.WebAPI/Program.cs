@@ -1,16 +1,35 @@
+﻿using FaturasHandler.Data.Context;
 using FaturasHandler.IoC;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Load Configuration
+builder.Configuration.SetBasePath(Directory.GetCurrentDirectory());
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true);
+builder.Configuration.AddEnvironmentVariables();
+
+// Get Connection String
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("❌ Database connection string is missing from configuration.");
+}
+
+Console.WriteLine($"✅ Using Connection String: {connectionString}"); // Debugging step
+
+// Register services
+builder.Services.AddInfrastructure();
+builder.Services.AddDbContext<FaturaDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddInfrastructure();
-
+// CORS Configuration
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -21,12 +40,12 @@ builder.Services.AddCors(options =>
     });
 });
 
-
-
 var app = builder.Build();
+
+// Enable CORS
 app.UseCors("AllowAll");
 
-// Configure the HTTP request pipeline.
+// Enable Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -34,9 +53,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

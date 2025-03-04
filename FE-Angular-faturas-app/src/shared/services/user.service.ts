@@ -38,6 +38,6 @@ export class UserService {
   }
 
   logUserAction(userId: string): Observable<any> {
-    return this.http.post(`${this.apiUrl}/user-actions/`, { user_id: userId });
+    return this.http.post(`${this.apiUrl}/user-actions/`, { userId: userId });
   }
 }

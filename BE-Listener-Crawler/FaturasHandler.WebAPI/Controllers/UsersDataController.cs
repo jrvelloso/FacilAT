@@ -1,14 +1,15 @@
-﻿using FaturasHandler.Services.Interfaces;
+﻿using FaturasHandler.Data.Models;
+using FaturasHandler.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 // ✅ Controllers
 [ApiController]
 [Route("api/users")]
-public class UserDataController : ControllerBase
+public class UsersController : ControllerBase
 {
     private readonly IUserDataService _userService;
 
-    public UserDataController(IUserDataService userService)
+    public UsersController(IUserDataService userService)
     {
         _userService = userService;
     }
@@ -28,6 +29,16 @@ public class UserDataController : ControllerBase
             return NotFound();
 
         return Ok(user);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateUser([FromBody] UserData user, CancellationToken cancellationToken)
+    {
+        if (user == null)
+            return BadRequest("User data is required.");
+
+        var createdUser = await _userService.AddAsync(user, cancellationToken);
+        return CreatedAtAction(nameof(GetUser), new { userId = createdUser.Id }, createdUser);
     }
 
     [HttpDelete("{userId}")]
