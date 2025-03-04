@@ -107,3 +107,57 @@ Thumbs.db
 /BE-Listener-Crawler/FaturasHandler.Listener/bin/Debug/net8.0/FaturasHandler.Listener.pdb
 /BE-Listener-Crawler/FaturasHandler.Listener/bin/Debug/net8.0/FaturasHandler.Services.dll
 /BE-Listener-Crawler/FaturasHandler.Listener/bin/Debug/net8.0/FaturasHandler.Services.pdb
+/BE-Listener-Crawler/FaturasHandler.API/obj/Debug/net8.0/FaturasHandler.Services.assets.cache
+/BE-Listener-Crawler/FaturasHandler.API/obj/FaturasHandler.Services.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.API/obj/FaturasHandler.Services.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.API/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.API/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/DesignTimeBuild/.dtbcache.v2
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/FileContentIndex/0a384c95-13b0-450a-bba8-08ec0c89ec4f.vsidx
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/FileContentIndex/7e1d158c-11a0-440c-9ac8-1f0689d4af94.vsidx
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/v17/.futdcache.v2
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/v17/.suo
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/FaturasHandler.Crawler/v17/DocumentLayout.json
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/ProjectEvaluation/faturashandler.crawler.metadata.v7.bin
+/BE-Listener-Crawler/FaturasHandler.Crawler/.vs/ProjectEvaluation/faturashandler.crawler.projects.v7.bin
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/Debug/net8.0/FaturasHandler.Crawler.assets.cache
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/Debug/net8.0/FaturasHandler.Crawler.csproj.FileListAbsolute.txt
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/FaturasHandler.Crawler.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/FaturasHandler.Crawler.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.Crawler/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.Data/Context/FaturaDbContext.cs
+/BE-Listener-Crawler/FaturasHandler.Data/obj/Debug/net8.0/FaturasHandler.Data.assets.cache
+/BE-Listener-Crawler/FaturasHandler.Data/obj/Debug/net8.0/FaturasHandler.Data.csproj.AssemblyReference.cache
+/BE-Listener-Crawler/FaturasHandler.Data/obj/FaturasHandler.Data.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.Data/obj/FaturasHandler.Data.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.Data/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.Data/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/Debug/net8.0/FaturasHandler.IoC.assets.cache
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/Debug/net8.0/FaturasHandler.IoC.csproj.FileListAbsolute.txt
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/FaturasHandler.IoC.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/FaturasHandler.IoC.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.IoC/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.Listener/obj/Debug/net8.0/FaturasHandler.Listener.assets.cache
+/BE-Listener-Crawler/FaturasHandler.Listener/obj/FaturasHandler.Listener.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.Listener/obj/FaturasHandler.Listener.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.Listener/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.Listener/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.Listener/appsettings.json
+/BE-Listener-Crawler/FaturasHandler.Listener/bin/Debug/net8.0/appsettings.json
+/BE-Listener-Crawler/FaturasHandler.WebAPI/bin/Debug/net8.0/appsettings.json
+/BE-Listener-Crawler/FaturasHandler.WebAPI/bin/Debug/net8.0/FaturasHandler.WebAPI.deps.json
+/BE-Listener-Crawler/FaturasHandler.WebAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/Debug/net8.0/FaturasHandler.WebAPI.assets.cache
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/Debug/net8.0/FaturasHandler.WebAPI.csproj.CoreCompileInputs.cache
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/FaturasHandler.WebAPI.csproj.nuget.dgspec.json
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/FaturasHandler.WebAPI.csproj.nuget.g.props
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/project.assets.json
+/BE-Listener-Crawler/FaturasHandler.WebAPI/obj/project.nuget.cache
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - FTP1.pubxml
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - FTP1.pubxml.user
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - Web Deploy1.pubxml
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - Web Deploy1.pubxml.user
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - Zip Deploy1.pubxml
+/BE-Listener-Crawler/FaturasHandler.WebAPI/Properties/PublishProfiles/faturashanlder-api-dev - Zip Deploy1.pubxml.user
