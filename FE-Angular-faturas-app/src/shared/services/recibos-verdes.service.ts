@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, catchError, throwError } from 'rxjs';
-import { IListagemRecibosVerdes } from 'src/shared/interfaces/IListagemRecibosVerdes';
 import { environment } from '../../environments/environment';
+import { IListagemRecibosVerdes } from '../interfaces/IListagemRecibosVerdes';
 
 @Injectable({
   providedIn: 'root'
